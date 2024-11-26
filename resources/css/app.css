@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Navegacion*/
+.img-profile {
+    width: 40px;  /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover;  /* Esto asegura que la imagen se recorte adecuadamente si no es cuadrada */
+    border-radius: 60%;  /* Esto hace que la imagen sea circular */
+}
+
+/*Perfil*/
+.img-profile-perfil {
+    width: 300px;  /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover;  /* Esto asegura que la imagen se recorte adecuadamente si no es cuadrada */
+    border-radius: 50%;  /* Esto hace que la imagen sea circular */
+}
